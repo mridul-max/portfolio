@@ -1042,6 +1042,7 @@ main {
   margin-bottom: 30px;
   border: 1px solid var(--jet);
   overflow: hidden;
+  background-color: white;
 }
 
 .mapbox figure { height: 100%; }
@@ -1050,6 +1051,7 @@ main {
   width: 100%;
   height: 100%;
   border: none;
+  background-color: white;
 }
 
 .contact-form { margin-bottom: 10px; }

@@ -3,125 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahedi Mridul - Software Engineer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            margin-top: 0;
-        }
-        .contact-info {
-            margin-bottom: 20px;
-        }
-        .contact-info a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .technical-profile, .competencies, .work-history, .education, .certifications, .other-skills {
-            margin-bottom: 30px;
-        }
-        .technical-profile ul, .competencies ul, .languages ul, .work-history ul, .education ul, .certifications ul, .other-skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .technical-profile ul li, .competencies ul li, .languages ul li, .work-history ul li, .education ul li, .certifications ul li, .other-skills ul li {
-            margin-bottom: 10px;
-        }
-    </style>
+    <title>Mahedi Mridul Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Mahedi Mridul</h1>
-        <p>Software Engineer</p>
-    </header>
     <div class="container">
-        <section class="contact-info">
-            <h2>Contact</h2>
-            <p><strong>Address:</strong> Haarlem, The Netherlands</p>
-            <p><strong>Phone:</strong> 0645826735</p>
-            <p><strong>Email:</strong> <a href="mailto:mahedimridul57@gmail.com">mahedimridul57@gmail.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mahedi-hasan-mridul/">Mahedi Hasan Mridul</a></p>
-        </section>
-        <section class="technical-profile">
-            <h2>Technical Profile</h2>
-            <ul>
-                <li>.NET</li>
-                <li>Spring Boot</li>
-                <li>C#</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>Docker</li>
-                <li>Amazon Web Services</li>
-                <li>TensorFlow</li>
-                <li>Vue.js</li>
-                <li>PHP</li>
-                <li>Azure DevOps</li>
-                <li>Red Hat Linux</li>
-                <li>Hadoop</li>
-                <li>Jenkins</li>
-                <li>MongoDB</li>
-                <li>MySQL</li>
-                <li>AWS Lambda</li>
-                <li>Amazon S3</li>
-                <li>AWS CloudFormation</li>
-            </ul>
-        </section>
-        <section class="competencies">
-            <h2>Competencies</h2>
-            <ul>
-                <li>Agile</li>
-                <li>Software Documentation</li>
-                <li>Programming</li>
-                <li>Software Development</li>
-                <li>Testing and maintenance</li>
-            </ul>
-        </section>
-        <section class="languages">
-            <h2>Languages</h2>
-            <ul>
-                <li>Bengali (native)</li>
-                <li>English (fluent)</li>
-                <li>Dutch (Elementary)</li>
-            </ul>
-        </section>
-        <section class="work-history">
-            <h2>Work History</h2>
-            <p>2023-11 - 2024-04</p>
-            <h3>Software Engineer</h3>
-            <p>Employer: [Company Name], Location: [City, Country]</p>
-            <p>Responsibilities and skills:</p>
-            <ul>
-                <li>Responsibility/Skill 1</li>
-                <li>Responsibility/Skill 2</li>
-                <!-- Add more details as needed -->
-            </ul>
-            <p>2022-04 - 2022-09</p>
-            <h3>Graduate Software Engineer (Intern)</h3>
-            <p>ASML, Veldhoven</p>
-            <p>Skills: C#, Unit testing, Integration testing, YieldStar, Batch Scripting</p>
-            <h3>Software Engineer (Part Time)</h3>
-            <p>Ease2pay, Rotterdam</p>
-            <p>Skills: Java, Unit testing</p>
-            <!-- Add more work history details -->
-        </section>
-        <section class="education">
+        <header class="header">
+            <h1 class="name">Mahedi Mridul</h1>
+            <title class="title">Software Engineer</title>
+        </header>
+        <main class="main">
+            <section class="about-me">
+                <h2 class="about-me-title">Summary</h2>
+                <p class="about-me-text">I am a complex problem-solver with analytical and driven mindset. Dedicated to achieving demanding development objectives according to tight schedules while producing impeccable code. I am a team player with strong organizational skills. Ability to handle multiple projects simultaneously with a high degree of accuracy.</p>
+                <p class="about-me-text">First and foremost, I enjoy writing code. Ever since I was a little kid software development has been my passion.</p>
+            </section>
+            <section class="contact">
+                <h2 class="contact-title">Contact</h2>
+                <p class="contact-text"><span class="contact-label">Address:</span> Haarlem, The Netherlands</p>
+                <p class="contact-text"><span class="contact-label">Phone:</span> 0645826735</p>
+                <p class="contact-text"><span class="contact-label">Email:</span> mahedimridul57@gmail.com</p>
+                <p class="contact-text"><span class="contact-label">Linkedin:</span> <a href="https://www.linkedin.com/in/mahedi-hasan-mridul/" class="contact-link">https://www.linkedin.com/in/mahedi-hasan-mridul/</a></p>
+            </section>
+            <section class="work-history">
+                <h2 class="work-history-title">Work History</h2>
+                <div class="work-history-item">
+                    <h3 class="work-history-item-title">Graduate Software Engineer (Intern)</h3>
+                    <p class="work-history-item-text">ASML, ASML Veldhoven (Nov 2023 - Apr 2024)</p>
+                    <ul class="work-history-item-list">
+                        <li>Worked with software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability, and performance.</li>
+                    </ul>
+                </div>
+                <div class="work-history-item">
+                    <h3 class="work-history-item-title">Software Engineer (Part Time)</h3>
+                    <p class="work-history-item-text">Ease2pay, Rotterdam (Apr 2022 - Sep 2022)</p>
+                    <ul class="work-history-item-list">
+                        <li>Skills: Java, Unit testing</li>
+                    </ul>
+                </div>
+                <div class="work-history-item">
+                    <h3 class="work-history-item-title">Quality Engineer Intern</h3>
+                    <p class="work-history-item-text">Albelli, Amsterdam (Nov 2021 - Apr 2022)</p>
+                    <ul class="work-history-item-list">
+                        <li>Skills: Test Automation C#, Amazon Web Services (AWS) Agile Testing Jenkins.</li>
+                        <li>Project: I had to work with an application called test processor which is running application on AWS lambda and triggered by event. It downloads raw test reports from AWS S3 bucket, processes the raw test reports and generates readable html test report.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="technical-profile">
+                <h2 class="technical-profile-title">Technical Profile</h2>
+                <ul class="technical-profile-list">
+                    <li>.NET</li>
+                    <li>Spring Boot</li>
+                    <li>C#</li>
+                    <li>Java</li>
+                    
+                </ul>
+            </section>
+             <section class="education">
             <h2>Education</h2>
             <p>2019-09 - Current</p>
             <p>BSc: Information Technology</p>
